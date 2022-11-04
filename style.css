@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #1B2021;
+  background-color: #DFD7B9;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #51513D;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+h2, h3 {
+  font-family: 'Lato', sans-serif;
+  color: #A6A867;
+  font-size: 20px;
+}
+
+i {
+  color: #71A2B6;
+  font-size: 3rem;
+  margin: 0 10px;
+}
+
+i:hover {
+  color: #0A2342;
+}
+
+.list_inline > li {
+  display: inline;
+  padding: 0px auto;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-white {
+  padding: 30px;
+  background-color:  #ffffffec;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 40px auto; /* This automatically sets left/right margins */
+}
+
+#img-circle{
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
